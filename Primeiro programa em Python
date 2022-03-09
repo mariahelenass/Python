@@ -1,0 +1,8 @@
+x = input('Choose a number: ')
+print('Your number is: ', x)
+y = float(x)
+if y >= 20:
+    print('Your number is: Bigger')
+else:
+    print('Your number is: Smaller')
+    print('Finis')
