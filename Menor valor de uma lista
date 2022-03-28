@@ -1,0 +1,12 @@
+# procurando o menor valor em uma lista
+
+# smallest começa com nulo
+smallest = None 
+print('Before')
+for value in [22,45,36,78]:
+    if smallest is None:
+        smallest = value
+    elif value < smallest:
+        smallest = value
+    print(smallest,value)
+print('After', smallest)
