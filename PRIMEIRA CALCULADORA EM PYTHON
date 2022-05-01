@@ -1,0 +1,101 @@
+print('===================BEM VINDO A MINHA PRIMEIRA CALCULADORA EM PYTHON======================\n\n')
+
+def soma(first,second):
+    return first+second
+
+def sub(first, second):
+    return fisrt-second
+
+def multi(first,second):
+    return fisrt*second
+
+def div(first,second):
+    if second == 0:
+        print('Divisão Inválida')
+    else:
+        first/second
+
+print('Qual operação você deseja realizar?\n\n')
+print('1-Soma\n2-Subtração\n3-Multiplicação\n4-Divisão\n\n')
+op=int(input('Digite a opção desejada: '))
+first = int(input('\nDigite o primeiro número: '))
+second = int(input('\nDigite o segundo número: '))
+
+if op==1:
+    print('\nRESULTADO: ')
+    print(first,'+', second,'=',soma(first,second))
+
+elif op==2:
+    print('\nRESULTADO: ')
+    print(first,'-', second,'=',sub(first,second))
+
+elif op==3:
+    print('\nRESULTADO: ')
+    print(first,'*', second,'=',multi(first,second))
+
+elif op==4:
+    print('\nRESULTADO: ')
+    print(first,'/', second,'=',div(first,second))
+
+
+
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    print('===================BEM VINDO A MINHA PRIMEIRA CALCULADORA EM PYTHON======================\n\n')
+
+def soma(first,second):
+    return first+second
+
+def sub(first, second):
+    return fisrt-second
+
+def multi(first,second):
+    return fisrt*second
+
+def div(first,second):
+    if second == 0:
+        print('Divisão Inválida')
+    else:
+        first/second
+
+print('Qual operação você deseja realizar?\n\n')
+print('1-Soma\n2-Subtração\n3-Multiplicação\n4-Divisão\n\n')
+op=int(input('Digite a opção desejada: '))
+first = int(input('\nDigite o primeiro número: '))
+second = int(input('\nDigite o segundo número: '))
+
+if op==1:
+    print('\nRESULTADO: ')
+    print(first,'+', second,'=',soma(first,second))
+
+elif op==2:
+    print('\nRESULTADO: ')
+    print(first,'-', second,'=',sub(first,second))
+
+elif op==3:
+    print('\nRESULTADO: ')
+    print(first,'*', second,'=',multi(first,second))
+
+elif op==4:
+    print('\nRESULTADO: ')
+    print(first,'/', second,'=',div(first,second))
+
+
+
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
